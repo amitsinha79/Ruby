@@ -9,7 +9,7 @@ describe OutputFormatter do
 
   describe 'when saved file' do
     it 'must saved file' do
-      @outputFormatter.save_file("poc").must_equal
+      @outputFormatter.save_file((File.read("test/text")))
     end
   end
   end

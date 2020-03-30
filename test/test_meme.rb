@@ -8,7 +8,7 @@ describe Meme do
  
   describe 'when asked about cheeseburgers' do
     it 'must respond positively' do
-      @meme.i_can_has_cheezburger?.must_equal 'OHAI!'
+      @meme.i_can_have_cheezburger?.must_equal 'cheers!'
     end
   end
  
